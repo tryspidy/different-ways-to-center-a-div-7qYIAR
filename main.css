@@ -1,0 +1,18 @@
+/* Centering an element without flexbox */
+.parent-element {
+  position: relative;
+}
+
+.child-element {
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+/* Centering an element using flexbox */
+.parent-element {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
